@@ -1,0 +1,13 @@
+onChange event
+
+//when you update on previous state
+
+setUserInput((prevState)=>{
+            return {...prevState,
+            enteredTitle: event.target.value}
+        });
+
+// when we click on submit button whole page reload and submitted data lost 
+to prevent this proble we will use:
+
+event.preventDefault();
