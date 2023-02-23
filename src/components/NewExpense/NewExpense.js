@@ -1,7 +1,7 @@
 import React from "react";
 import './NewExpense.css';
 import ExpenseForm from "./ExpenseForm";
-import ExpensesFilter from "./ExpensesFilter";
+
 const NewExpense = (props) => {
     const onSaveExpenseDataHandler = (enteredExpenseData) => {
         const expenseData = {
@@ -13,7 +13,7 @@ const NewExpense = (props) => {
     return (<div className="new-expense">
             
             <ExpenseForm onSaveExpenseData ={onSaveExpenseDataHandler} />
-            <ExpensesFilter/>
+            
         </div>);
 };
 
