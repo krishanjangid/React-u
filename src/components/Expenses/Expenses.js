@@ -17,7 +17,7 @@ import ExpenseList from "./ExpensesList";
   
 
     return(
-    <div>
+    <li>
       <Card className="expenses">
         <ExpensesFilter 
           selected = {filteredYear} 
@@ -25,7 +25,7 @@ import ExpenseList from "./ExpensesList";
         />
         <ExpenseList items = {filteredExpense} />
       </Card>
-    </div>
+    </li>
   );
   }
 
