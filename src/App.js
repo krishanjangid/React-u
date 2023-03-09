@@ -22,6 +22,12 @@ const dummy_expenses = [
     amount: 450,
     date: new Date(2021, 5, 12),
   },
+  {
+    id: 'e5',
+    title: 'Tesla Ev',
+    amount: 450,
+    date: new Date(2023, 3, 1),
+  }
 ];
 
 
